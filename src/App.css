@@ -1,0 +1,55 @@
+/* App.css */
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sort-container {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.sort-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sort-button:hover {
+  background-color: #4990dc;
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.add-comment-button {
+  padding: 10px 20px;
+  background-color: #047dff;
+  color: #fff;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.add-comment-button:hover {
+  background-color: #0056b3;
+}

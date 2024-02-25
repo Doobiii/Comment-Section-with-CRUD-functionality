@@ -1,0 +1,59 @@
+/* Comment.css */
+.comment-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .comment-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .reply-container {
+    margin-top: 10px;
+
+  }
+  
+  .reply {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+  
+  .reply-text {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .reply-input {
+    margin-top: 10px;
+  }
+  
+  .reply-input input {
+    width: calc(100% - 100px);
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .reply-button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
